@@ -1,0 +1,101 @@
+p {
+  color: red;
+  font-size: large;
+  font-weight: 100;
+}
+h1 {
+  background-color: aqua;
+}
+table,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+#first-button {
+  color: orangered;
+}
+#first-button:hover {
+  color: violet;
+}
+.box {
+  height: 100px;
+  width: 200px;
+  border: 1px solid black;
+  background-color: orange;
+  margin: 10px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+#as {
+  background-color: orange;
+}
+#df {
+  background-color: white;
+}
+#gh {
+  background-color: green;
+}
+.gradient {
+  border: 1px solid black;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  padding: 25px;
+
+  background-image: linear-gradient(yellowgreen, aqua);
+  background-image: linear-gradient(to right, yellowgreen, aqua);
+  background-image: linear-gradient(to bottom right, yellowgreen, aqua, pink);
+  background-image: linear-gradient(0deg, yellowgreen, aqua, pink);
+  background-image: linear-gradient(orange, white, green);
+}
+.mydiv {
+  border: 1px solid black;
+  height: 200px;
+  width: 250px;
+  margin: 10px;
+  padding: 25px;
+  /* background-image: radial-gradient(red, blue,violet); */
+  background-image: radial-gradient(circle, red, blue, violet);
+  background-image: radial-gradient(circle, red 10%, blue 30%, violet);
+  /* background-image: radial-gradient(circle,red 10%, blue 30%,violet 100%); */
+}
+
+#shadow-heading {
+  text-shadow: 3px 3px red;
+  text-shadow: 3px 3px red, 5px 5px green;
+  background-color: transparent;
+}
+
+#shadow-container {
+  background-color: aqua;
+  width: 400px;
+  height: 200px;
+  color: moccasin;
+  /* box-shadow: 10px 10px 15 yellowgreen; normal shadow withoot blur */
+  box-shadow: 10px 10px 15px yellowgreen;
+  box-shadow: 10px 10px 15px yellowgreen, -10px -10px 15px red;
+}
+
+.dimention1 {
+  max-height: 150px;
+  border: 1px solid black;
+  overflow: scroll;
+}
+.dimention2 {
+  margin: 10px;
+  border: 1px solid black;
+  overflow: scroll;
+  min-height: 100px;
+}
+
+.hithere {
+  background-color: aqua;
+  width: 80px;
+  transform: translate(50px, 20px) rotate(-45deg) scale(3, 5) skew(45deg);
+}
