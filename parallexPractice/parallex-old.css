@@ -5,44 +5,33 @@
 }
 
 #wrapper {
-  height: 100vh;
-  overflow-y: auto;
   overflow-x: hidden;
+  overflow-y: auto;
+  height: 100vh;
   perspective: 10px;
 }
 
 .container {
   position: relative;
-  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform-style: preserve-3d;
-  z-index: -1;
-}
-
-.background,
-.foreground {
-  position: absolute;
   height: 100%;
-  width: 100%;
-  object-fit: cover;
+  transform-style: preserve-3d;
   z-index: -1;
 }
 
 .background {
   transform: translateZ(-40px) scale(5);
 }
-
-.foreground{
-    transform: translateZ(-20px) scale(3);
+.foreground {
+  transform: translateZ(-20px) scale(3);
 }
-
-h1{
-    position: absolute;
-    top: 5rem;
-    font-size: 10rem;
-    letter-spacing: 4px;
-    color: white;
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+.background,
+.foreground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
 }
