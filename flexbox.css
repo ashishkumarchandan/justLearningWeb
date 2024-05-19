@@ -7,7 +7,7 @@
   flex-flow: row wrap;
   justify-content: center;
   align-items: center;
-  /* gap: 10px; */
+  gap: 10px;
   align-content: center;
 }
 .box {
@@ -17,16 +17,19 @@
   /* flex-grow: 1; */
 }
 
-#box1{
+#box1 {
   order: 1;
   flex-grow: 1;
+  /* align-self: self-start; */
 }
 
-#box3{
+#box3 {
   order: 8;
-  flex-grow: 1re proces;
+  flex-grow: 2;
+  /* align-self: self-end; */
 }
 
-#box2{
-  order:4;
+#box2 {
+  order: 4;
+  /* align-self: stretch; */
 }
