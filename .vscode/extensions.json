@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "formulahendry.code-runner",
+    "naumovs.color-highlight",
+    "kisstkondoros.vscode-gutter-preview",
+    "ritwickdey.liveserver",
+    "pkief.material-icon-theme"
+  ]
+}
