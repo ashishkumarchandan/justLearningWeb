@@ -1,0 +1,10 @@
+favicon is there
+heading in center h1 tag, text align center
+figure tag with img and figcaption
+hover the image text appear (opacity 1) else invisible text (opacity 0)
+default image is greyscale, filter applied and image gallery is responsive
+image hap images so flexbox and space between
+image edge are round border-radius
+transition for hover
+scale of image and text size increase when hover
+wrapper with height of full viewport. overflow in x hidden and overflow in y auto.

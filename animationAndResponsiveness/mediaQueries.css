@@ -1,0 +1,41 @@
+.container {
+  height: 700px;
+  border: 1px solid red;
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 0.3fr 0.7fr;
+  grid-template-rows: 0.05fr 0.9fr 0.05fr;
+  grid-template-areas: "hd hd" "side main" "ft ft";
+}
+.box {
+  border: 1px solid green;
+  background-color: aqua;
+}
+
+#header {
+  grid-area: hd;
+}
+
+#sidebar {
+  grid-area: side;
+}
+
+#content {
+  grid-area: main;
+}
+
+#footer {
+  grid-area: ft;
+}
+
+@media (max-width: 500px) {
+  .container {
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.05fr 0.1fr 0.8fr 0.05fr;
+    grid-template-areas: "hd " "side" "main" "ft";
+  }
+}
